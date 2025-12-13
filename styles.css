@@ -1,15 +1,22 @@
 body {
-    margin: 0
+  margin: 0;
 }
 
 header {
-    background-color: navy;
-    padding: 30px;
+  background-color: navy;
+  padding: 30px;
 }
 
 .navigation {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 
+.navigation a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.navigation:hover a {
+  color: aqua;
 }
