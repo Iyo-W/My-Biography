@@ -6,3 +6,10 @@ header {
     background-color: navy;
     padding: 30px;
 }
+
+.navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
