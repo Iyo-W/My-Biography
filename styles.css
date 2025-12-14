@@ -22,7 +22,19 @@ header {
 }
 
 .bio {
-  background-color: aqua;
+  background-color: skyblue;
   padding: 25px;
+  flex-wrap: wrap;
+}
+
+.desc {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.desc img {
+  max-width: 400px;
+  height: auto;
 }
 
