@@ -53,7 +53,7 @@ header {
   padding: 0 30px;
 }
 
-.projects h2 {
+h2 {
   font-size: 50px;
   color: aliceblue;
 }
@@ -64,6 +64,24 @@ header {
 }
 
 .cards p {
-    color: rgb(81, 142, 196);
+  color: rgb(81, 142, 196);
 }
 
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contennt {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cards img {
+  width: 200px;
+  height: 200px;
+}
+
+.cards {
+  width: 350px;
+}
