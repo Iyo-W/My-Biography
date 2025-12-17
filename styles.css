@@ -70,6 +70,7 @@ h2 {
 .projects {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .contennt {
@@ -78,10 +79,13 @@ h2 {
 }
 
 .cards img {
-  width: 200px;
-  height: 200px;
+  width: 450px;
+  height: 400px;
 }
 
 .cards {
-  width: 350px;
+  width: 450px;
+  text-align: center;
 }
+
+
