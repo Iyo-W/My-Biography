@@ -97,14 +97,17 @@ footer {
 
 footer p {
   color: #ffffff;
+  text-align: center;
 }
 
 .contact img {
-    width: 50px;
-    margin: 10px;
+  width: 50px;
+  padding-bottom: 10px;
+    margin: auto;
+
 }
 
 .contact a {
-    display: flex;
-
+  display: flex;
 }
+
