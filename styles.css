@@ -92,10 +92,19 @@ footer {
   padding: 30px;
   display: flex;
   justify-content: space-around;
+  display: flex;
 }
 
 footer p {
   color: #ffffff;
 }
 
+.contact img {
+    width: 50px;
+    margin: 10px;
+}
 
+.contact a {
+    display: flex;
+
+}
