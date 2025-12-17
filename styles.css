@@ -6,7 +6,6 @@ body {
 header {
   background-color: navy;
   padding: 30px;
-  justify-content: end;
 }
 
 .navigation {
@@ -86,6 +85,17 @@ h2 {
 .cards {
   width: 450px;
   text-align: center;
+}
+
+footer {
+  background-color: navy;
+  padding: 30px;
+  display: flex;
+  justify-content: space-around;
+}
+
+footer p {
+  color: #ffffff;
 }
 
 
