@@ -39,7 +39,6 @@ header img {
 }
 
 .bio {
-  display: flex;
   flex-wrap: wrap;
   text-align: center;
   background-color: rgb(10, 19, 70);
@@ -49,6 +48,7 @@ header img {
 .desc {
   display: flex;
   flex-wrap: wrap;
+  margin: 0 auto;
   gap: 30px;
   border-top: 1.5px solid whitesmoke;
   padding: 90px;
