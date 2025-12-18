@@ -6,9 +6,9 @@ body {
 
 main {
   background-color: rgb(0, 9, 63);
-  width: 1500px;
+  max-width: 1500px;
+  width: 90%;
   margin: 0 auto;
-  flex-wrap: wrap;
 }
 
 header {
@@ -19,7 +19,7 @@ header {
 }
 
 header img {
-  width: 3%;
+  width: 3.6%;
   border-radius: 50px;
 }
 
@@ -34,22 +34,21 @@ header img {
   text-decoration: none;
 }
 
-.navigation:hover a {
+.navigation a:hover {
   color: aqua;
 }
 
 .bio {
   display: flex;
   flex-wrap: wrap;
-  padding: 25px;
-  flex-wrap: wrap;
   text-align: center;
+  background-color: rgb(10, 19, 70);
+  padding: 50px;
 }
 
 .desc {
-  justify-content: space-between;
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
   gap: 30px;
   border-top: 1.5px solid whitesmoke;
   padding: 90px;
@@ -64,13 +63,15 @@ header img {
 }
 
 .desc img {
-  max-width: 30%;
+  width: 30%;
   height: auto;
   border-radius: 10px;
   margin: 0 auto;
 }
 
-.desc p {
+.text {
+  display: flex;
+  flex-wrap: wrap;
   width: 500px;
   font-size: large;
   color: aliceblue;
@@ -119,6 +120,8 @@ h2 {
   border: 2px solid white;
   border-radius: 6px;
   box-shadow: 3px 2px 2px whitesmoke;
+  padding: 10px;
+  margin-bottom: 15px;
 }
 
 footer {
